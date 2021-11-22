@@ -1,0 +1,492 @@
+.body {
+  margin: 10px;
+}
+
+.color-name-title {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.item {
+  height: 100px;
+  display: grid;
+  place-items: center;
+  font-size: 1rem;
+  font-family: sans-serif;
+  border-radius: 5px;
+}
+
+.item--1 {
+  background-color: aliceblue;
+}
+.item--2 {
+  background-color: antiquewhite;
+}
+.item--3 {
+  background-color: aqua;
+}
+.item--4 {
+  background-color: aquamarine;
+}
+.item--5 {
+  background-color: azure;
+}
+.item--6 {
+  background-color: beige;
+}
+.item--7 {
+  background-color: bisque;
+}
+.item--8 {
+  background-color: black;
+  color: white;
+}
+.item--9 {
+  background-color: blanchedalmond;
+}
+.item--10 {
+  background-color: blue;
+  color: white;
+}
+.item--11 {
+  background-color: blueviolet;
+  color: white;
+}
+.item--12 {
+  background-color: brown;
+  color: white;
+}
+.item--13 {
+  background-color: burlywood;
+}
+.item--14 {
+  background-color: cadetblue;
+}
+.item--15 {
+  background-color: chartreuse;
+}
+.item--16 {
+  background-color: chocolate;
+  color: white;
+}
+.item--17 {
+  background-color: coral;
+}
+.item--18 {
+  background-color: cornflowerblue;
+  color: white;
+}
+.item--19 {
+  background-color: cornsilk;
+}
+.item--20 {
+  background-color: crimson;
+  color: white;
+}
+.item--21 {
+  background-color: cyan;
+}
+.item--22 {
+  background-color: darkblue;
+  color: white;
+}
+.item--23 {
+  background-color: darkcyan;
+  color: white;
+}
+.item--24 {
+  background-color: darkgoldenrod;
+  color: white;
+}
+.item--25 {
+  background-color: darkgray;
+}
+.item--26 {
+  background-color: darkgreen;
+  color: white;
+}
+.item--27 {
+  background-color: darkkhaki;
+}
+.item--28 {
+  background-color: darkmagenta;
+  color: white;
+}
+.item--29 {
+  background-color: darkolivegreen;
+  color: white;
+}
+.item--30 {
+  background-color: darkorange;
+  color: white;
+}
+.item--31 {
+  background-color: darkorchid;
+  color: white;
+}
+.item--32 {
+  background-color: darkred;
+  color: white;
+}
+.item--33 {
+  background-color: darksalmon;
+}
+.item--34 {
+  background-color: darkseagreen;
+}
+.item--35 {
+  background-color: darkslategray;
+  color: white;
+}
+.item--36 {
+  background-color: darkturquoise;
+}
+.item--37 {
+  background-color: darkviolet;
+  color: white;
+}
+.item--38 {
+  background-color: deeppink;
+  color: white;
+}
+.item--39 {
+  background-color: deepskyblue;
+}
+.item--40 {
+  background-color: dimgray;
+  color: white;
+}
+.item--41 {
+  background-color: dodgerblue;
+  color: white;
+}
+.item--42 {
+  background-color: firebrick;
+  color: wheat;
+}
+.item--43 {
+  background-color: floralwhite;
+}
+.item--44 {
+  background-color: forestgreen;
+  color: white;
+}
+.item--45 {
+  background-color: fuchsia;
+}
+.item--46 {
+  background-color: gainsboro;
+}
+.item--47 {
+  background-color: ghostwhite;
+}
+.item--48 {
+  background-color: gold;
+}
+.item--49 {
+  background-color: goldenrod;
+  color: white;
+}
+.item--50 {
+  background-color: gray;
+  color: white;
+}
+.item--51 {
+  background-color: green;
+  color: white;
+}
+.item--52 {
+  background-color: greenyellow;
+}
+.item--53 {
+  background-color: honeydew;
+}
+.item--54 {
+  background-color: hotpink;
+}
+.item--55 {
+  background-color: indianred;
+  color: white;
+}
+.item--56 {
+  background-color: indigo;
+  color: white;
+}
+.item--57 {
+  background-color: ivory;
+}
+.item--58 {
+  background-color: khaki;
+}
+.item--59 {
+  background-color: lavender;
+}
+.item--60 {
+  background-color: lavenderblush;
+}
+.item--61 {
+  background-color: lawngreen;
+}
+.item--62 {
+  background-color: lemonchiffon;
+}
+.item--63 {
+  background-color: lightblue;
+}
+.item--64 {
+  background-color: lightcoral;
+}
+.item--65 {
+  background-color: lightcyan;
+}
+.item--66 {
+  background-color: lightgoldenrodyellow;
+}
+.item--67 {
+  background-color: lightgray;
+}
+.item--68 {
+  background-color: lightpink;
+}
+.item--69 {
+  background-color: lightsalmon;
+}
+.item--70 {
+  background-color: lightseagreen;
+}
+.item--71 {
+  background-color: lightslategray;
+  color: white;
+}
+.item--72 {
+  background-color: lightsteelblue;
+}
+.item--73 {
+  background-color: lightyellow;
+}
+.item--74 {
+  background-color: lime;
+}
+.item--75 {
+  background-color: limegreen;
+}
+.item--76 {
+  background-color: linen;
+}
+.item--77 {
+  background-color: magenta;
+  color: white;
+}
+.item--78 {
+  background-color: maroon;
+  color: wheat;
+}
+.item--79 {
+  background-color: mediumaquamarine;
+}
+.item--80 {
+  background-color: mediumblue;
+  color: white;
+}
+.item--81 {
+  background-color: mediumorchid;
+  color: white;
+}
+.item--82 {
+  background-color: mediumpurple;
+  color: white;
+}
+.item--83 {
+  background-color: mediumseagreen;
+}
+.item--84 {
+  background-color: mediumslateblue;
+  color: white;
+}
+.item--85 {
+  background-color: mediumspringgreen;
+}
+.item--86 {
+  background-color: mediumturquoise;
+}
+.item--87 {
+  background-color: mediumvioletred;
+  color: white;
+}
+.item--88 {
+  background-color: midnightblue;
+  color: white;
+}
+.item--89 {
+  background-color: mintcream;
+}
+.item--90 {
+  background-color: mistyrose;
+}
+.item--91 {
+  background-color: moccasin;
+}
+.item--92 {
+  background-color: navajowhite;
+}
+.item--93 {
+  background-color: navy;
+  color: white;
+}
+.item--94 {
+  background-color: oldlace;
+}
+.item--95 {
+  background-color: olive;
+  color: white;
+}
+.item--96 {
+  background-color: olivedrab;
+  color: white;
+}
+.item--97 {
+  background-color: orange;
+}
+.item--98 {
+  background-color: orangered;
+  color: white;
+}
+.item-99 {
+  background-color: orchid;
+}
+.item--100 {
+  background-color: palegoldenrod;
+}
+.item--101 {
+  background-color: palegreen;
+}
+.item--102 {
+  background-color: paleturquoise;
+}
+.item--103 {
+  background-color: palevioletred;
+  color: white;
+}
+.item--104 {
+  background-color: papayawhip;
+}
+.item--105 {
+  background-color: peachpuff;
+}
+.item--106 {
+  background-color: peru;
+  color: white;
+}
+.item--107 {
+  background-color: pink;
+}
+.item--108 {
+  background-color: plum;
+}
+.item--109 {
+  background-color: powderblue;
+}
+.item--110 {
+  background-color: purple;
+  color: white;
+}
+.item--111 {
+  background-color: red;
+  color: white;
+}
+.item--112 {
+  background-color: rosybrown;
+  color: white;
+}
+.item--113 {
+  background-color: royalblue;
+  color: white;
+}
+.item--114 {
+  background-color: saddlebrown;
+  color: wheat;
+}
+.item--115 {
+  background-color: salmon;
+}
+.item--116 {
+  background-color: sandybrown;
+}
+.item--117 {
+  background-color: seagreen;
+  color: white;
+}
+.item--118 {
+  background-color: seashell;
+}
+.item--119 {
+  background-color: sienna;
+  color: wheat;
+}
+.item--120 {
+  background-color: silver;
+}
+.item--121 {
+  background-color: skyblue;
+}
+.item--122 {
+  background-color: slateblue;
+  color: white;
+}
+.item--123 {
+  background-color: slategray;
+}
+.item--124 {
+  background-color: snow;
+}
+.item--125 {
+  background-color: springgreen;
+}
+.item--126 {
+  background-color: steelblue;
+  color: white;
+}
+.item--127 {
+  background-color: tan;
+}
+.item--128 {
+  background-color: teal;
+  color: white;
+}
+.item--129 {
+  background-color: thistle;
+}
+.item--130 {
+  background-color: tomato;
+  color: wheat;
+}
+.item--131 {
+  background-color: turquoise;
+}
+.item--132 {
+  background-color: violet;
+  color: white;
+}
+.item--133 {
+  background-color: wheat;
+}
+.item--134 {
+  background-color: white;
+}
+.item--135 {
+  background-color: whitesmoke;
+}
+.item--136 {
+  background-color: yellow;
+}
+.item--137 {
+  background-color: yellowgreen;
+}
+
+/*# sourceMappingURL=color.css.map */

@@ -1,0 +1,492 @@
+.body {
+	margin: 10px;
+}
+.color-name-title {
+	font-family: sans-serif;
+	text-align: center;
+}
+.container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	gap: 10px;
+}
+.item {
+	height: 100px;
+	display: grid;
+	place-items: center;
+	font-size: 1rem;
+	font-family: sans-serif;
+	border-radius: 5px;
+}
+
+.item {
+	&--1 {
+		background-color: aliceblue;
+	}
+	&--2 {
+		background-color: antiquewhite;
+	}
+	&--3 {
+		background-color: aqua;
+	}
+	&--4 {
+		background-color: aquamarine;
+	}
+	&--5 {
+		background-color: azure;
+	}
+	&--6 {
+		background-color: beige;
+	}
+	&--7 {
+		background-color: bisque;
+	}
+	&--8 {
+		background-color: black;
+		color: white;
+	}
+	&--9 {
+		background-color: blanchedalmond;
+	}
+	&--10 {
+		background-color: blue;
+		color: white;
+	}
+	&--11 {
+		background-color: blueviolet;
+		color: white;
+	}
+	&--12 {
+		background-color: brown;
+		color: white;
+	}
+	&--13 {
+		background-color: burlywood;
+	}
+	&--14 {
+		background-color: cadetblue;
+	}
+	&--15 {
+		background-color: chartreuse;
+	}
+	&--16 {
+		background-color: chocolate;
+		color: white;
+	}
+	&--17 {
+		background-color: coral;
+	}
+	&--18 {
+		background-color: cornflowerblue;
+		color: white;
+	}
+	&--19 {
+		background-color: cornsilk;
+	}
+	&--20 {
+		background-color: crimson;
+		color: white;
+	}
+	&--21 {
+		background-color: cyan;
+	}
+	&--22 {
+		background-color: darkblue;
+		color: white;
+	}
+	&--23 {
+		background-color: darkcyan;
+		color: white;
+	}
+	&--24 {
+		background-color: darkgoldenrod;
+		color: white;
+	}
+	&--25 {
+		background-color: darkgray;
+	}
+	&--26 {
+		background-color: darkgreen;
+		color: white;
+	}
+	&--27 {
+		background-color: darkkhaki;
+	}
+	&--28 {
+		background-color: darkmagenta;
+		color: white;
+	}
+	&--29 {
+		background-color: darkolivegreen;
+		color: white;
+	}
+	&--30 {
+		background-color: darkorange;
+		color: white;
+	}
+	&--31 {
+		background-color: darkorchid;
+		color: white;
+	}
+	&--32 {
+		background-color: darkred;
+		color: white;
+	}
+	&--33 {
+		background-color: darksalmon;
+	}
+	&--34 {
+		background-color: darkseagreen;
+	}
+	&--35 {
+		background-color: darkslategray;
+		color: white;
+	}
+	&--36 {
+		background-color: darkturquoise;
+	}
+	&--37 {
+		background-color: darkviolet;
+		color: white;
+	}
+	&--38 {
+		background-color: deeppink;
+		color: white;
+	}
+	&--39 {
+		background-color: deepskyblue;
+	}
+	&--40 {
+		background-color: dimgray;
+		color: white;
+	}
+	&--41 {
+		background-color: dodgerblue;
+		color: white;
+	}
+	&--42 {
+		background-color: firebrick;
+		color: wheat;
+	}
+	&--43 {
+		background-color: floralwhite;
+	}
+	&--44 {
+		background-color: forestgreen;
+		color: white;
+	}
+	&--45 {
+		background-color: fuchsia;
+	}
+	&--46 {
+		background-color: gainsboro;
+	}
+	&--47 {
+		background-color: ghostwhite;
+	}
+	&--48 {
+		background-color: gold;
+	}
+	&--49 {
+		background-color: goldenrod;
+		color: white;
+	}
+	&--50 {
+		background-color: gray;
+		color: white;
+	}
+	&--51 {
+		background-color: green;
+		color: white;
+	}
+	&--52 {
+		background-color: greenyellow;
+	}
+	&--53 {
+		background-color: honeydew;
+	}
+	&--54 {
+		background-color: hotpink;
+	}
+	&--55 {
+		background-color: indianred;
+		color: white;
+	}
+	&--56 {
+		background-color: indigo;
+		color: white;
+	}
+	&--57 {
+		background-color: ivory;
+	}
+	&--58 {
+		background-color: khaki;
+	}
+	&--59 {
+		background-color: lavender;
+	}
+	&--60 {
+		background-color: lavenderblush;
+	}
+	&--61 {
+		background-color: lawngreen;
+	}
+	&--62 {
+		background-color: lemonchiffon;
+	}
+	&--63 {
+		background-color: lightblue;
+	}
+	&--64 {
+		background-color: lightcoral;
+	}
+	&--65 {
+		background-color: lightcyan;
+	}
+	&--66 {
+		background-color: lightgoldenrodyellow;
+	}
+	&--67 {
+		background-color: lightgray;
+	}
+	&--68 {
+		background-color: lightpink;
+	}
+	&--69 {
+		background-color: lightsalmon;
+	}
+	&--70 {
+		background-color: lightseagreen;
+	}
+	&--71 {
+		background-color: lightslategray;
+		color: white;
+	}
+	&--72 {
+		background-color: lightsteelblue;
+	}
+	&--73 {
+		background-color: lightyellow;
+	}
+	&--74 {
+		background-color: lime;
+	}
+	&--75 {
+		background-color: limegreen;
+	}
+	&--76 {
+		background-color: linen;
+	}
+	&--77 {
+		background-color: magenta;
+		color: white;
+	}
+	&--78 {
+		background-color: maroon;
+		color: wheat;
+	}
+	&--79 {
+		background-color: mediumaquamarine;
+	}
+	&--80 {
+		background-color: mediumblue;
+		color: white;
+	}
+	&--81 {
+		background-color: mediumorchid;
+		color: white;
+	}
+	&--82 {
+		background-color: mediumpurple;
+		color: white;
+	}
+	&--83 {
+		background-color: mediumseagreen;
+	}
+	&--84 {
+		background-color: mediumslateblue;
+		color: white;
+	}
+	&--85 {
+		background-color: mediumspringgreen;
+	}
+	&--86 {
+		background-color: mediumturquoise;
+	}
+	&--87 {
+		background-color: mediumvioletred;
+		color: white;
+	}
+	&--88 {
+		background-color: midnightblue;
+		color: white;
+	}
+	&--89 {
+		background-color: mintcream;
+	}
+	&--90 {
+		background-color: mistyrose;
+	}
+	&--91 {
+		background-color: moccasin;
+	}
+	&--92 {
+		background-color: navajowhite;
+	}
+	&--93 {
+		background-color: navy;
+		color: white;
+	}
+	&--94 {
+		background-color: oldlace;
+	}
+	&--95 {
+		background-color: olive;
+		color: white;
+	}
+	&--96 {
+		background-color: olivedrab;
+		color: white;
+	}
+	&--97 {
+		background-color: orange;
+	}
+	&--98 {
+		background-color: orangered;
+		color: white;
+	}
+	&-99 {
+		background-color: orchid;
+	}
+	&--100 {
+		background-color: palegoldenrod;
+	}
+	&--101 {
+		background-color: palegreen;
+	}
+	&--102 {
+		background-color: paleturquoise;
+	}
+	&--103 {
+		background-color: palevioletred;
+		color: white;
+	}
+	&--104 {
+		background-color: papayawhip;
+	}
+	&--105 {
+		background-color: peachpuff;
+	}
+	&--106 {
+		background-color: peru;
+		color: white;
+	}
+	&--107 {
+		background-color: pink;
+	}
+	&--108 {
+		background-color: plum;
+	}
+	&--109 {
+		background-color: powderblue;
+	}
+	&--110 {
+		background-color: purple;
+		color: white;
+	}
+	&--111 {
+		background-color: red;
+		color: white;
+	}
+	&--112 {
+		background-color: rosybrown;
+		color: white;
+	}
+	&--113 {
+		background-color: royalblue;
+		color: white;
+	}
+	&--114 {
+		background-color: saddlebrown;
+		color: wheat;
+	}
+	&--115 {
+		background-color: salmon;
+	}
+	&--116 {
+		background-color: sandybrown;
+	}
+	&--117 {
+		background-color: seagreen;
+		color: white;
+	}
+	&--118 {
+		background-color: seashell;
+	}
+	&--119 {
+		background-color: sienna;
+		color: wheat;
+	}
+	&--120 {
+		background-color: silver;
+	}
+	&--121 {
+		background-color: skyblue;
+	}
+	&--122 {
+		background-color: slateblue;
+		color: white;
+	}
+	&--123 {
+		background-color: slategray;
+	}
+	&--124 {
+		background-color: snow;
+	}
+	&--125 {
+		background-color: springgreen;
+	}
+	&--126 {
+		background-color: steelblue;
+		color: white;
+	}
+	&--127 {
+		background-color: tan;
+	}
+
+	&--128 {
+		background-color: teal;
+		color: white;
+	}
+	&--129 {
+		background-color: thistle;
+	}
+	&--130 {
+		background-color: tomato;
+		color: wheat;
+	}
+	&--131 {
+		background-color: turquoise;
+	}
+	&--132 {
+		background-color: violet;
+		color: white;
+	}
+
+	&--133 {
+		background-color: wheat;
+	}
+	&--134 {
+		background-color: white;
+	}
+	&--135 {
+		background-color: whitesmoke;
+	}
+
+	&--136 {
+		background-color: yellow;
+	}
+	&--137 {
+		background-color: yellowgreen;
+	}
+}
